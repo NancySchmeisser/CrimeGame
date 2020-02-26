@@ -8,11 +8,15 @@ public class CrimeGame : MonoBehaviour {
    [SerializeField] Text textComponent;
    [SerializeField] State startingState;
 
+
     State state;   
     void Start() {
 
         state = startingState;
         textComponent.text = state.GetStateStory();
+
+        string[] nextState = { "Room1", "Room2"};
+    
         
     }
 
