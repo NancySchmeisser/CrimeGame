@@ -415,6 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96c7137f47d70514c839dc517b3734ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textComponent: {fileID: 1568343798}
 --- !u!1 &1273565403
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +703,7 @@ MonoBehaviour:
   m_Text: "A cold autumn night. A body with knife wounds is found. A murderer is on
     the run. There are no clues. Detective Raymund Marlowe takes over the case. He
     examines the dead body and finds a postcard in his right jacket pocket.\r\n\r\n(1)
-    Ignore it and put the postcard back. \r\n(2) Read the postcard\n"
+    Ignore it and put the postcard back.\n(2) Read the postcard\n"
 --- !u!222 &1568343799
 CanvasRenderer:
   m_ObjectHideFlags: 0
