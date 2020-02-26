@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class CrimeGame : MonoBehaviour { 
 
    [SerializeField] Text textComponent;
+   [SerializeField] State startingState;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        textComponent.text = ("i am added programmatically!");
+    State state;   
+    void Start() {
+
+        state = startingState;
+        textComponent.text = state.GetStateStory();
         
     }
 
