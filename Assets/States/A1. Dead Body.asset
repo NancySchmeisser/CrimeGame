@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a2defe8e2bf804dad9abfbb0b398b5, type: 3}
+  m_Name: A1. Dead Body
+  m_EditorClassIdentifier: 
+  storyText: "A cold autumn night. A body with knife wounds is found. \r\nA murderer
+    is on the run. There are no clues. \r\nDetective Raymund Marlowe takes over the
+    case. \r\nHe examines the dead body and finds a postcard in his right jacket pocket.\r\n\r\n(1)
+    Ignore it and put the postcard back.\n(2) Read the postcard"
+  nextStates:
+  - {fileID: 11400000, guid: 741d51a948f676f44b89ecf5abdd9f61, type: 2}
+  - {fileID: 11400000, guid: 5584dfc12a234b644959a06d70b049f3, type: 2}
